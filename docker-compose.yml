@@ -1,0 +1,14 @@
+version: '2.4'
+services:
+
+  dev-kassa:
+    image: php:8-alpine
+    working_dir: /home/app
+    volumes:
+      - ./app:/home/app
+    command:
+      - /bin/sh
+      - -c
+      - |
+        php composer.phar install
+        php index.php

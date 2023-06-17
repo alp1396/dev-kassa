@@ -1,0 +1,19 @@
+{
+    "name": "alex/dev-kassa",
+    "description": "skills testing",
+    "autoload": {
+        "psr-4": {
+            "": [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Anderson",
+            "email": "3808942+alp1396@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
